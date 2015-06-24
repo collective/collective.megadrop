@@ -4,4 +4,7 @@ Changelog
 1.0b1 (unreleased)
 -------------------
 
+- Added support for Plone 4.3
+[Eveli]
+
 - Initial release
