@@ -6,7 +6,12 @@ from plone.app.layout.viewlets.common import GlobalSectionsViewlet
 from Products.CMFCore.utils import getToolByName
 
 from Products.CMFCore.interfaces import IFolderish
-from zope.app.component.hooks import getSite
+try:
+    # Plone < 4.3
+    from zope.app.component.hooks import getSite
+except ImportError:
+    # Plone >= 4.3
+    from zope.component.hooks import getSite  # NOQA
 
 class MegaDropGlobalSectionsViewlet(GlobalSectionsViewlet):
     """A custom version of the global navigation viewlet that reveals two levels of structure
