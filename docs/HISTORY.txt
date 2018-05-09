@@ -4,7 +4,10 @@ Changelog
 1.0b1 (unreleased)
 -------------------
 
+- Added more strings classifiers items for this package
+  [macagua]
+
 - Added support for Plone 4.3
-[Eveli]
+  [Eveli]
 
 - Initial release
