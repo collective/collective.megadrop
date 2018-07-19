@@ -4,6 +4,9 @@ Changelog
 1.0b1 (unreleased)
 -------------------
 
+- Fixed UserWarning: Normalizing '1.0dev1' to '1.0.dev1' normalized_version
+  [macagua]
+
 - Added more strings classifiers items for this package
   [macagua]
 
